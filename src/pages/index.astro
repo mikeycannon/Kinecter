@@ -24,12 +24,11 @@ const meta = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
-    callToAction2={{ text: 'Learn more', href: '#features' }}
+    callToAction={{ text: 'Join the waitlist', href: 'https://mailchimp.com/', icon: 'tabler:clock-edit' }}
     image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Your website with <span>Astro</span> + <span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Kinecter
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -316,33 +315,22 @@ const meta = {
     ]}
   />
 
-  <!-- Stats Widget ****************** -->
-
-  <Stats
-    items={[
-      { name: 'Downloads', value: '132K' },
-      { name: 'Stars', value: '24.8K' },
-      { name: 'Forks', value: '10.3K' },
-      { name: 'Users', value: '48.4K' },
-    ]}
-  />
 
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
     callToAction={{
-      text: 'Get template',
-      href: 'https://github.com/onwidget/astrowind',
-      icon: 'tabler:download',
+      text: 'Join the waitlist',
+      href: 'https://mailchimp.com',
+      icon: 'tabler:clock-edit',
     }}
   >
     <Fragment slot="title">
-      Astro + <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Kinecter
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      Be the first to know when Kinecter is available 
     </Fragment>
   </CallToAction>
 </Layout>
